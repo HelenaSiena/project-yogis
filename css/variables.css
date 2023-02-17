@@ -1,0 +1,13 @@
+:root { 
+    --text-normal: #000;
+    --text-colored:  #604F7C;
+    --hover: #604F7C;
+    --text-for-hover: #fff;
+
+    --bg-navbar: #fff;
+    --border-button: #604F7C;
+    --bg-card:  #f2e8fc;
+
+    --bg-button: #604F7C;
+    --bg-hover: #fff;
+}

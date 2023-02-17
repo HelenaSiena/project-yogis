@@ -1,0 +1,48 @@
+/*
+A partir de 767px -> tablets
+*/
+
+@media (max-width: 767px){
+    #inicio img { 
+        display: none;
+    }
+    .card { 
+        display: block;
+        width: 767px;
+        height: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .button-costum { 
+        display: block;
+        margin: 0 auto;
+    }
+    #endereco {
+        text-align: center;
+        margin: 20px auto;
+    }
+    #endereco img { 
+        display: none;
+    }
+    
+    #card-2 .card { 
+        font-size: 0.9rem;
+    }
+    #card-2 img { 
+        display: none;
+    }
+
+    #redes-sociais { 
+        text-align: center;
+    }
+
+    #redes-sociais img { 
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+    footer { 
+        text-align: center;
+    }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+/*Estilizações de texto*/
+*{
+    font-family: 'Alef', sans-serif;
+    list-style: none;
+}
+a { 
+    text-decoration: none;
+}
+.text-inter { 
+    font-family: 'Inter', sans-serif;
+}
+.text-colored,
+p,
+h1, 
+h2, 
+h3, 
+h4,
+h5,
+h6 { 
+    color: var(--text-colored);
+}
+
+/*Estilização de cores e tamanhos*/
+#bg-body { 
+    background-image: url('/images/BG.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link { 
+    color: var(--text-normal);
+}
+
+.nav .nav-link.active,
+.nav-link:hover{ 
+    background-color: var(--hover);
+    color: var(--text-for-hover);
+}
+
+.button-custom { 
+    background-color: var(--bg-navbar);
+    border: 1px solid var(--border-button);
+    color: var(--text-colored);
+    border-radius: 10px;
+    box-shadow: 1em gold;
+    width: 150px;
+}
+.button-custom:hover { 
+    background-color: var(--hover);
+    color: var(--text-for-hover);
+}
+.button-custom-2,
+.button-custom-2 a{ 
+    background-color: var(--bg-button);
+    border: 1px solid var(--border-button);
+    color: var(--text-for-hover);
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+.card { 
+    width: 1000px;
+    height: 350px;
+    background-color: var(--bg-card);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.card img{
+    position: absolute;
+    width: 630px;
+    height: 400px;
+    left: 350px;
+    top: 30px;
+}
+
+#endereco { 
+    margin: 150px 100px 0 0;
+}
+
+#card-2 .card{ 
+    width: 1000px;
+    height: 200px;
+    background-color: var(--bg-card);
+    border-radius: 15px;
+    margin: 0 auto;
+}
